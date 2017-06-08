@@ -1,0 +1,15 @@
+instrumentation:
+  root: src
+  include-all-sources: true
+  verbose: true
+  excludes: ["**/*_test.js"]
+reporting:
+  print: summary
+  reports:
+    - html
+  dir: ./coverage
+  watermarks:
+    statements: [90, 100]
+    lines: [90, 100]
+    functions: [90, 100]
+    branches: [90, 100]

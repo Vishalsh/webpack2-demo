@@ -1,0 +1,7 @@
+--colors
+--reporter progress
+--compilers js:babel-core/register
+--require ignore-styles test/setup.js
+--recursive
+--sort
+src/**/*_test.js
